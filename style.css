@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .screen {
+    display: none;
+  }
+  .screen.active {
+    display: block;
+  }
+  button {
+    padding: 10px 20px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin: 8px 0;
+  }
+  .correct {
+    color: green;
+  }
+  .incorrect {
+    color: red;
+  }
+  @media (max-width: 600px) {
+    .container {
+      padding: 1rem;
+    }
+  }
+  

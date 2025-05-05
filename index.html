@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Me!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container" role="main">
+    <section id="start-screen" class="screen active">
+      <h1>🧠 Welcome to Quiz Me!</h1>
+      <button id="start-btn">Start Quiz</button>
+    </section>
+
+    <section id="quiz-screen" class="screen">
+      <div id="question-container">
+        <h2 id="question-text"></h2>
+        <ul id="options-list"></ul>
+        <button id="submit-btn">Submit</button>
+      </div>
+    </section>
+
+    <section id="correction-screen" class="screen">
+      <h2>Results</h2>
+      <div id="corrections-container"></div>
+      <button id="next-quiz-btn">Next Quiz</button>
+    </section>
+
+    <section id="final-summary" class="screen">
+      <h2>All Quizzes Completed!</h2>
+      <p id="final-score-text"></p>
+    </section>
+  </main>
+  <script src="quiz-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
